@@ -11,14 +11,14 @@ kramdown:
   hard_wrap: false
 
 plugins:
-  - jekyll-relative-links
   - jekyll-optional-front-matter
   - jekyll-readme-index
   - jekyll-default-layout
+  - jekyll-relative-links
 
-relative_links:
-  enabled: true
-  collections: true
+# 强制所有文件使用 default layout（解决裸 md 问题）
+optional_front_matter:
+  remove_originals: false
 
 readme_index:
   enabled: true
@@ -26,8 +26,12 @@ readme_index:
   with_frontmatter: true
 
 defaults:
-  -
-    scope:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
       path: ""
     values:
-      layout: default
+      layout: "default"

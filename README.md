@@ -1,3 +1,8 @@
+---
+layout: default
+title: AI 落地实用开源仓库索引
+---
+
 # AI 落地实用开源仓库索引与分析库
 
 > **目标**：每天从 GitHub Trending + X 热议中精选 **固定 20 个** 高质量、可落地的 AI / Agent / RAG / Agentic 项目，并提供结构化分析与商业洞察。  
