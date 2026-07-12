@@ -6,3 +6,10 @@ gem "jekyll-relative-links"
 gem "jekyll-optional-front-matter"
 gem "jekyll-readme-index"
 gem "jekyll-default-layout"
+
+group :jekyll_plugins do
+  gem "jekyll-relative-links"
+  gem "jekyll-optional-front-matter"
+  gem "jekyll-readme-index"
+  gem "jekyll-default-layout"
+end
