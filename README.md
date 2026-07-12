@@ -1,112 +1,69 @@
-# 🔥 Hot Open Source Projects
+# Hot Open Source Projects (AI Focus)
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![GitHub stars](https://img.shields.io/github/stars/liaoqiaochunfengchuijiuxing/hot-opensource-projects?style=social)](https://github.com/liaoqiaochunfengchuijiuxing/hot-opensource-projects)
+[English](README.md) | [中文](README.zh-CN.md)
 
-**English** | [中文](README.zh-CN.md)
+Daily tracking of **AI-related** hot open-source projects from GitHub Trending and X discussions.  
+Monthly rolling archives. GPL-3.0.
 
-> **Daily curated list of the hottest AI-focused open-source projects**  
-> Tracking **GitHub Trending (AI / Agent / LLM priority)** + the most discussed & recommended projects on **X (Twitter)**.  
-> Monthly rolling archives.
+**Archives**: [2026-07](archives/2026-07.md)
 
 ---
 
-## About
+## 2026-07-12
 
-This repository maintains a living document of popular **AI-oriented** open-source projects:
+### 1. GitHub Hot Projects
 
-- **Every day**: Capture top AI-related trending repositories from [GitHub Trending](https://github.com/trending)
-- **Every day**: Capture the open-source projects most discussed / recommended on X
-- **Clear separation of heat rankings**:
-  - 🔥 **GitHub Heat** (sorted by stars today, AI first)
-  - 💬 **X Heat** (most discussed & recommended on X)
-- **Monthly rolling archive**: All daily entries organized under monthly files
-- **GPL-3.0 licensed**
+| Rank | Project | Stars Today | Language |
+|------|---------|-------------|----------|
+| 1 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 776 | Python |
+| 2 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 549 | Python |
+| 3 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 464 | Jupyter |
+| 4 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | 444 | Rust |
+| 5 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | 274 | Python |
+| 6 | [FoundationAgents/OpenManus](https://github.com/FoundationAgents/OpenManus) | 226 | Python |
+| 7 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 207 | TypeScript |
+| 8 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 210 | CSS |
+| 9 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 117 | Python |
+| 10 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 109 | Python |
 
-Goal: high-signal, AI-first archive that helps developers discover great open-source work without noise.
+### 2. Hot Discussions on X + Mainstream Opinions
 
----
+- **Vibe-Trading**: Strong buzz as a practical personal AI trading agent. Many see it as the next step after basic LLM trading bots — more agentic and end-to-end.
+- **awesome-llm-apps**: Frequently recommended as the best "actually runnable" collection of AI Agent & RAG examples. People say it's better than most tutorial lists because you can clone and ship immediately.
+- **Claude Cookbooks + Claude Code tools**: Heavy discussion around Claude ecosystem (cookbooks, code-templates, free wrappers, MCP servers). Mainstream view: Claude is currently the strongest for agentic coding and long-context work.
+- **DesktopCommanderMCP**: Widely praised for giving Claude real terminal + filesystem power via MCP. Many call it a game-changer for local AI coding agents.
+- **destructive_command_guard**: Growing attention as AI agents become more autonomous — people want safety rails so agents can't destroy systems.
+- **WeChat Markdown tools (doocs/md etc.)**: In Chinese circles, still the most recommended set for content creators using AI to generate WeChat public account posts.
 
-## Monthly Archive Directory (Rolling)
+### 3. In-depth Introduction of Key Projects
 
-| Month | Archive File | Status |
-|-------|--------------|--------|
-| **2026-07** | [archives/2026-07.md](archives/2026-07.md) | 🟢 Active (current) |
-| 2026-06 | — | Coming soon |
-| 2026-05 | — | Coming soon |
+#### HKUDS/Vibe-Trading
+A personal AI trading agent that aims to handle the full loop: market analysis, strategy generation, risk control, and execution vibes. Built with modern agent frameworks. Currently the hottest trading-related open-source agent on GitHub today. Good for people who want a more autonomous trading companion rather than just signal generators.
 
-> How it works:  
-> - Current month → `archives/YYYY-MM.md`  
-> - New month starts with a fresh file  
-> - Old months stay forever  
-> - README always points to the latest
+#### Shubhamsaboo/awesome-llm-apps
+One of the most practical "awesome lists" in the AI agent space. Contains 100+ ready-to-run Agent and RAG applications. Unlike many lists that only link papers or demos, most entries here can be cloned, customized, and deployed. Extremely useful for rapid prototyping and learning real agent patterns.
 
----
+#### anthropics/claude-cookbooks
+Official collection of notebooks and recipes from Anthropic. Covers advanced Claude usage patterns, tool use, long context, agent workflows, and evaluation. Currently one of the highest-signal resources for getting the most out of Claude (especially Claude Code and agentic setups).
 
-## Today's Highlights (2026-07-12)
+#### Dicklesworthstone/destructive_command_guard
+A safety tool specifically designed for AI agents. It intercepts and blocks dangerous shell/git commands that autonomous agents might run by mistake. As coding agents gain more system access, this kind of guardrail is becoming essential. Written in Rust for performance and reliability.
 
-### 🔥 GitHub Heat (AI Priority)
+#### wonderwhy-er/DesktopCommanderMCP
+MCP (Model Context Protocol) server that gives Claude (and other MCP-compatible models) full terminal control, file system search, and diff-based editing. Turns Claude into a much more powerful local coding agent. Highly discussed as one of the best practical MCP tools right now.
 
-| Rank | Repository | Stars Today | Language | Description |
-|------|------------|-------------|----------|-------------|
-| 1 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | ⭐ **776** | Python | Your Personal Trading Agent |
-| 2 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | ⭐ **549** | Python | 100+ AI Agent & RAG apps you can actually run |
-| 3 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | ⭐ **464** | Jupyter | Claude recipes & notebooks |
-| 4 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | ⭐ **444** | Rust | Block dangerous commands executed by AI agents |
-| 5 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | ⭐ **274** | Python | CLI for configuring & monitoring Claude Code |
-| 6 | [FoundationAgents/OpenManus](https://github.com/FoundationAgents/OpenManus) | ⭐ **226** | Python | Purely open agent framework |
-| 7 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | ⭐ **207** | TypeScript | MCP server giving Claude terminal + filesystem control |
-| 8 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | ⭐ **210** | CSS | Anti-AI-slop design skill for Claude Code / Cursor / Codex |
-| 9 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | ⭐ **117** | Python | Build & deploy AI agents and workflows |
-| 10 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | ⭐ **109** | Python | An AI Hedge Fund Team |
+#### davila7/claude-code-templates & related Claude Code tools
+Ecosystem around Claude Code (Anthropic's agentic coding CLI). Templates for configuration, monitoring, free wrappers, and load balancers. Shows how fast the Claude Code community is growing and how people are building tooling around it.
 
-### 💬 X Heat (Most Discussed / Recommended)
+#### FoundationAgents/OpenManus
+Open-source agent framework emphasizing "no fortress, purely open ground". Aims to be a clean, extensible foundation for multi-agent systems without heavy proprietary lock-in. Early but gaining traction among people tired of closed agent platforms.
 
-| Project | Why Hot on X | Link |
-|---------|--------------|------|
-| **Vorssaint** | Hit #1 Trending Swift in first month, 2.7k⭐, free forever | [Thread](https://x.com/vorssaint/status/2076321912083411134) |
-| **doocs/md + WeChat tools** | Most recommended Chinese Markdown tools for WeChat public accounts + new AI Skills | [Thread](https://x.com/Yufgvvvv/status/2076303800630215027) |
-| **DesktopCommanderMCP / Claude MCP** | Heavy discussion on giving Claude real terminal power | Multiple posts |
-| **Claude Code ecosystem** | Continuous high discussion around Claude Code templates & free wrappers | Multiple |
-| **Sherlock** | Still strongly recommended in OSINT / cyber circles | [Post](https://x.com/VivekIntel/status/2076308979194699933) |
+#### langflow-ai/langflow
+Visual tool for building and deploying AI agents and workflows. Drag-and-drop interface on top of LangChain-style components. Popular for teams that want to prototype agents quickly without writing everything from scratch.
 
-> Full daily details → [archives/2026-07.md](archives/2026-07.md)
+#### virattt/ai-hedge-fund
+Multi-agent AI hedge fund simulation. Multiple specialized agents (research, trading, risk, etc.) collaborate. One of the more complete open-source examples of multi-agent financial systems. Good reference for building collaborative agent teams.
 
 ---
 
-## How to Contribute
-
-1. Fork the repo
-2. Add today's entries to the current monthly archive (`archives/YYYY-MM.md`)
-3. Update the "Today's Highlights" section in both `README.md` and `README.zh-CN.md`
-4. Open a Pull Request
-
-**Suggested daily format**:
-
-```markdown
-## 📅 YYYY-MM-DD
-
-### 🔥 GitHub Heat (AI Priority)
-- [owner/repo](url) — short description (⭐ X today)
-
-### 💬 X Heat
-- Project name — why it's hot + link
-```
-
----
-
-## License
-
-This project is licensed under the **GNU General Public License v3.0**.  
-See the [LICENSE](LICENSE) file for the full text.
-
----
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=liaoqiaochunfengchuijiuxing/hot-opensource-projects&type=Date)](https://star-history.com/#liaoqiaochunfengchuijiuxing/hot-opensource-projects&Date)
-
----
-
-**Maintained with ❤️ by the community**  
-Star ⭐ and watch 👀 for daily updates!
+*Updated daily. Full history in [archives](archives/).*

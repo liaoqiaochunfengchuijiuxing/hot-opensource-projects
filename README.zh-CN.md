@@ -1,112 +1,69 @@
-# 🔥 热门开源项目日报
+# 热门开源项目日报（AI 方向）
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![GitHub stars](https://img.shields.io/github/stars/liaoqiaochunfengchuijiuxing/hot-opensource-projects?style=social)](https://github.com/liaoqiaochunfengchuijiuxing/hot-opensource-projects)
+[English](README.md) | [中文](README.zh-CN.md)
 
-[English](README.md) | **中文**
+每日追踪 **AI 相关** GitHub 热门开源项目 + X 上热议项目。  
+月度滚动归档。GPL-3.0 协议。
 
-> **每日精选 AI 方向最热开源项目**  
-> 追踪 **GitHub 热门（AI / Agent / LLM 优先）** + **X 上讨论与推荐最多的开源项目**。  
-> 月度滚动归档。
+**归档**： [2026-07](archives/2026-07.md)
 
 ---
 
-## 关于本项目
+## 2026-07-12
 
-本仓库维护一份**以 AI 方向为主**的热门开源项目动态文档：
+### 1. GitHub 热点项目
 
-- **每日**：抓取 [GitHub Trending](https://github.com/trending) 中 AI / Agent / LLM / Coding Agent 相关热门仓库
-- **每日**：记录 X 上讨论与推荐最热的开源项目（尤其 AI 相关）
-- **热度清晰分离**：
-  - 🔥 **GitHub 热度**（按今日新增 Stars 排序，AI 优先）
-  - 💬 **X 热度**（X 上讨论与推荐最多）
-- **月度滚动归档**：所有每日记录按月归档
-- **GPL-3.0 开源协议**
+| 排名 | 项目 | 今日 Stars | 语言 |
+|------|------|------------|------|
+| 1 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 776 | Python |
+| 2 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 549 | Python |
+| 3 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 464 | Jupyter |
+| 4 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | 444 | Rust |
+| 5 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | 274 | Python |
+| 6 | [FoundationAgents/OpenManus](https://github.com/FoundationAgents/OpenManus) | 226 | Python |
+| 7 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 207 | TypeScript |
+| 8 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 210 | CSS |
+| 9 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 117 | Python |
+| 10 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 109 | Python |
 
-目标：打造高信噪比、**AI 优先**的归档，帮助开发者高效发现优质开源项目。
+### 2. X 上热议项目及主流观点
 
----
+- **Vibe-Trading**：被广泛讨论为实用的个人 AI 交易 Agent。很多人认为它比传统 LLM 交易机器人更进一步，具备更完整的 Agent 闭环。
+- **awesome-llm-apps**：频繁被推荐为目前最好的「真正可运行」AI Agent & RAG 合集。观点普遍是：比大多数教程列表实用，可以直接 clone 改造上线。
+- **Claude Cookbooks + Claude Code 工具链**：Claude 生态（食谱、code-templates、免费 wrapper、MCP 服务器）讨论热度极高。主流观点：Claude 目前在 Agentic Coding 和长上下文方面最强。
+- **DesktopCommanderMCP**：被大量好评，认为通过 MCP 给 Claude 真实终端 + 文件系统权限是质变。很多人说这是当前最实用的 MCP 工具之一。
+- **destructive_command_guard**：随着 AI Agent 越来越自主，安全防护需求上升。大家开始关注如何防止 Agent 执行危险命令。
+- **微信 Markdown 工具链（doocs/md 等）**：中文圈内容创作者仍最推荐的一套工具，尤其适合用 AI 生成公众号内容后排版发布。
 
-## 月度滚动归档目录
+### 3. 重点项目深入介绍
 
-| 月份 | 归档文件 | 状态 |
-|------|----------|------|
-| **2026-07** | [archives/2026-07.md](archives/2026-07.md) | 🟢 当前活跃 |
-| 2026-06 | — | 即将添加 |
-| 2026-05 | — | 即将添加 |
+#### HKUDS/Vibe-Trading
+个人 AI 交易 Agent，目标是覆盖完整闭环：市场分析、策略生成、风控、执行。使用现代 Agent 框架构建。目前 GitHub 上最热的交易相关开源 Agent。适合想要更自主交易伙伴、而不只是信号生成器的人。
 
-> 滚动归档机制：  
-> - 当前月 → `archives/YYYY-MM.md`  
-> - 每月初创建新文件  
-> - 历史月份永久保留  
-> - README 始终指向最新月份
+#### Shubhamsaboo/awesome-llm-apps
+AI Agent 领域最实用的 awesome 列表之一。包含 100+ 可直接运行的 Agent 和 RAG 应用。与很多只贴论文/Demo 的列表不同，这里的大多数项目都可以 clone、定制、部署。非常适合快速原型开发和学习真实 Agent 模式。
 
----
+#### anthropics/claude-cookbooks
+Anthropic 官方 notebooks 和 recipes 合集。覆盖 Claude 高级用法、工具调用、长上下文、Agent 工作流、评估等。目前是榨干 Claude（尤其 Claude Code 和 Agent 场景）最高信噪比的资源之一。
 
-## 今日亮点 (2026-07-12)
+#### Dicklesworthstone/destructive_command_guard
+专为 AI Agent 设计的安全工具。拦截并阻止自主 Agent 可能误执行的危险 shell/git 命令。随着 Coding Agent 获得更多系统权限，这种防护栏变得越来越必要。用 Rust 编写，注重性能和可靠性。
 
-### 🔥 GitHub 热度（AI 优先）
+#### wonderwhy-er/DesktopCommanderMCP
+MCP（Model Context Protocol）服务器，赋予 Claude（及其他兼容模型）完整终端控制、文件系统搜索、基于 diff 的编辑能力。让 Claude 变成真正强大的本地 Coding Agent。目前讨论度很高的实用 MCP 工具。
 
-| 排名 | 仓库 | 今日 Stars | 语言 | 描述 |
-|------|------|------------|------|------|
-| 1 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | ⭐ **776** | Python | 你的个人交易 Agent |
-| 2 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | ⭐ **549** | Python | 100+ 真正可运行的 AI Agent & RAG 应用 |
-| 3 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | ⭐ **464** | Jupyter | Claude 实用食谱与笔记本 |
-| 4 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | ⭐ **444** | Rust | 阻止 AI Agent 执行危险命令 |
-| 5 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | ⭐ **274** | Python | Claude Code 配置与监控 CLI |
-| 6 | [FoundationAgents/OpenManus](https://github.com/FoundationAgents/OpenManus) | ⭐ **226** | Python | 纯开放式 Agent 框架 |
-| 7 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | ⭐ **207** | TypeScript | 给 Claude 终端 + 文件系统控制权的 MCP |
-| 8 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | ⭐ **210** | CSS | 反 AI 垃圾输出的设计技能（Claude Code / Cursor / Codex） |
-| 9 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | ⭐ **117** | Python | 构建与部署 AI Agent 与工作流 |
-| 10 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | ⭐ **109** | Python | AI 对冲基金团队 |
+#### davila7/claude-code-templates 及相关 Claude Code 工具
+围绕 Claude Code（Anthropic 的 Agentic Coding CLI）的生态工具。配置模板、监控、免费 wrapper、负载均衡等。显示出 Claude Code 社区增长速度，以及大家在其之上构建工具的热情。
 
-### 💬 X 热度（讨论与推荐最多）
+#### FoundationAgents/OpenManus
+开源 Agent 框架，强调「无堡垒，纯开放」。目标是提供干净、可扩展的多 Agent 系统基础，避免重度专有锁定。早期但受欢迎，尤其是那些厌倦封闭 Agent 平台的人。
 
-| 项目 | 为什么在 X 上热 | 链接 |
-|------|----------------|------|
-| **Vorssaint** | 第一个月即登顶 GitHub Trending Swift，2.7k⭐，永久免费 | [Thread](https://x.com/vorssaint/status/2076321912083411134) |
-| **doocs/md + 微信工具链** | 中文圈最稳微信 Markdown 编辑器 + 新一代 AI Skill 排版/发布工具 | [Thread](https://x.com/Yufgvvvv/status/2076303800630215027) |
-| **DesktopCommanderMCP / Claude MCP** | 大量讨论围绕给 Claude 赋予真实终端控制权 | 多帖 |
-| **Claude Code 生态** | Claude Code 模板、免费 wrapper 持续高讨论 | 多帖 |
-| **Sherlock** | 仍在 OSINT / 网络安全圈被强推 | [Post](https://x.com/VivekIntel/status/2076308979194699933) |
+#### langflow-ai/langflow
+可视化构建和部署 AI Agent 与工作流的工具。基于 LangChain 风格组件的拖拽界面。适合想快速原型 Agent、又不想从零写代码的团队。
 
-> 完整每日详情 → [archives/2026-07.md](archives/2026-07.md)
+#### virattt/ai-hedge-fund
+多智能体 AI 对冲基金模拟。多个专业 Agent（研究、交易、风控等）协作。开源中比较完整的多 Agent 金融系统示例。适合学习如何构建协作 Agent 团队。
 
 ---
 
-## 如何贡献
-
-1. Fork 本仓库
-2. 把今日内容添加到当前月归档（`archives/YYYY-MM.md`）
-3. 同步更新 `README.md`（英文）和 `README.zh-CN.md`（中文）的「今日亮点」部分
-4. 提交 Pull Request
-
-**推荐每日格式**：
-
-```markdown
-## 📅 YYYY-MM-DD
-
-### 🔥 GitHub 热度（AI 优先）
-- [owner/repo](url) — 简短描述 (⭐ X today)
-
-### 💬 X 热度
-- 项目名 — 为什么热 + 链接
-```
-
----
-
-## 许可证
-
-本项目采用 **GNU General Public License v3.0** 许可。  
-完整文本见 [LICENSE](LICENSE) 文件。
-
----
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=liaoqiaochunfengchuijiuxing/hot-opensource-projects&type=Date)](https://star-history.com/#liaoqiaochunfengchuijiuxing/hot-opensource-projects&Date)
-
----
-
-**社区共同维护**  
-欢迎 star ⭐ 并 watch 👀 获取每日更新！
+*每日更新。完整历史见 [archives](archives/)。*
