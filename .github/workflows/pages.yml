@@ -37,6 +37,7 @@ jobs:
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+          PAGES_REPO_NWO: liaoqiaochunfengchuijiuxing/hot-opensource-projects
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
