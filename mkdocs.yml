@@ -28,15 +28,21 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.indexes
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
     - content.action.edit
     - toc.follow
+    - toc.integrate
 
 plugins:
   - search
   - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -53,24 +59,30 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+      toc_depth: 3
 
 nav:
   - 首页: index.md
-  - 最新日报:
+  - 日报:
     - 2026-07-12: daily/2026-07-12.md
-  - 项目索引: index.md
   - 分类:
     - Agent Frameworks: categories/agent-frameworks.md
     - RAG Systems: categories/rag-systems.md
     - Multi-Agent: categories/multi-agent.md
     - Content & Creative: categories/content-creative.md
-    - Agent Safety: categories/agent-safety.md
     - Local AI: categories/local-ai.md
+    - Agent Safety: categories/agent-safety.md
+    - LLM Deployment: categories/llm-deployment.md
   - 深度研究: research/README.md
-  - 代理规则: AGENTS.md
-  - 贡献指南: CONTRIBUTING.md
+  - 站点管理:
+    - 代理规则 (AGENTS): AGENTS.md
+    - 架构说明: ARCHITECTURE.md
+    - 贡献指南: CONTRIBUTING.md
+    - 部署说明: GITHUB_PAGES.md
+    - 图谱 Schema: GRAPH_SCHEMA.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/liaoqiaochunfengchuijiuxing/hot-opensource-projects
+  generator: false
