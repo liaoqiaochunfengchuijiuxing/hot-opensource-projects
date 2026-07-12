@@ -1,0 +1,25 @@
+title: AI 落地实用开源仓库索引
+description: 每天精选 20 个高质量、可落地的 AI / Agent / RAG / Agentic 项目
+theme: jekyll-theme-primer
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+relative_links:
+  enabled: true
+  collections: true
+readme_index:
+  enabled: true
+  remove_originals: false
+  with_frontmatter: true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
