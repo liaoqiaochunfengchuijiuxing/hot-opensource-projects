@@ -1,20 +1,18 @@
-# Hot Open Source Projects (AI Focus)
+# 热门开源项目日报（AI 方向）
 
-[English](README.md) | [中文](README.zh-CN.md)
+每日追踪 **AI 相关** GitHub 热门开源项目 + X 上热议项目。  
+月度滚动归档。GPL-3.0 协议。
 
-Daily tracking of **AI-related** hot open-source projects from GitHub Trending and X discussions.  
-Monthly rolling archives. GPL-3.0.
-
-**Archives**: [2026-07](archives/2026-07.md)
+**归档**：[2026-07](archives/2026-07.md)
 
 ---
 
 ## 2026-07-12
 
-### 1. GitHub Hot Projects
+### 1. GitHub 热点项目
 
-| Rank | Project | Stars Today | Language |
-|------|---------|-------------|----------|
+| 排名 | 项目 | 今日 Stars | 语言 |
+|------|------|------------|------|
 | 1 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 776 | Python |
 | 2 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 549 | Python |
 | 3 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 464 | Jupyter |
@@ -26,44 +24,44 @@ Monthly rolling archives. GPL-3.0.
 | 9 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 117 | Python |
 | 10 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 109 | Python |
 
-### 2. Hot Discussions on X + Mainstream Opinions
+### 2. X 上热议项目及主流观点
 
-- **Vibe-Trading**: Strong buzz as a practical personal AI trading agent. Many see it as the next step after basic LLM trading bots — more agentic and end-to-end.
-- **awesome-llm-apps**: Frequently recommended as the best "actually runnable" collection of AI Agent & RAG examples. People say it's better than most tutorial lists because you can clone and ship immediately.
-- **Claude Cookbooks + Claude Code tools**: Heavy discussion around Claude ecosystem (cookbooks, code-templates, free wrappers, MCP servers). Mainstream view: Claude is currently the strongest for agentic coding and long-context work.
-- **DesktopCommanderMCP**: Widely praised for giving Claude real terminal + filesystem power via MCP. Many call it a game-changer for local AI coding agents.
-- **destructive_command_guard**: Growing attention as AI agents become more autonomous — people want safety rails so agents can't destroy systems.
-- **WeChat Markdown tools (doocs/md etc.)**: In Chinese circles, still the most recommended set for content creators using AI to generate WeChat public account posts.
+- **Vibe-Trading**：被广泛讨论为实用的个人 AI 交易 Agent。很多人认为它比传统 LLM 交易机器人更进一步，具备更完整的 Agent 闭环。
+- **awesome-llm-apps**：频繁被推荐为目前最好的「真正可运行」AI Agent & RAG 合集。观点普遍是：比大多数教程列表实用，可以直接 clone 改造上线。
+- **Claude Cookbooks + Claude Code 工具链**：Claude 生态（食谱、code-templates、免费 wrapper、MCP 服务器）讨论热度极高。主流观点：Claude 目前在 Agentic Coding 和长上下文方面最强。
+- **DesktopCommanderMCP**：被大量好评，认为通过 MCP 给 Claude 真实终端 + 文件系统权限是质变。很多人说这是当前最实用的 MCP 工具之一。
+- **destructive_command_guard**：随着 AI Agent 越来越自主，安全防护需求上升。大家开始关注如何防止 Agent 执行危险命令。
+- **微信 Markdown 工具链（doocs/md 等）**：中文圈内容创作者仍最推荐的一套工具，尤其适合用 AI 生成公众号内容后排版发布。
 
-### 3. In-depth Introduction of Key Projects
+### 3. 重点项目深入介绍
 
 #### HKUDS/Vibe-Trading
-A personal AI trading agent that aims to handle the full loop: market analysis, strategy generation, risk control, and execution vibes. Built with modern agent frameworks. Currently the hottest trading-related open-source agent on GitHub today. Good for people who want a more autonomous trading companion rather than just signal generators.
+个人 AI 交易 Agent，目标是覆盖完整闭环：市场分析、策略生成、风控、执行。使用现代 Agent 框架构建。目前 GitHub 上最热的交易相关开源 Agent。适合想要更自主交易伙伴、而不只是信号生成器的人。
 
 #### Shubhamsaboo/awesome-llm-apps
-One of the most practical "awesome lists" in the AI agent space. Contains 100+ ready-to-run Agent and RAG applications. Unlike many lists that only link papers or demos, most entries here can be cloned, customized, and deployed. Extremely useful for rapid prototyping and learning real agent patterns.
+AI Agent 领域最实用的 awesome 列表之一。包含 100+ 可直接运行的 Agent 和 RAG 应用。与很多只贴论文/Demo 的列表不同，这里的大多数项目都可以 clone、定制、部署。非常适合快速原型开发和学习真实 Agent 模式。
 
 #### anthropics/claude-cookbooks
-Official collection of notebooks and recipes from Anthropic. Covers advanced Claude usage patterns, tool use, long context, agent workflows, and evaluation. Currently one of the highest-signal resources for getting the most out of Claude (especially Claude Code and agentic setups).
+Anthropic 官方 notebooks 和 recipes 合集。覆盖 Claude 高级用法、工具调用、长上下文、Agent 工作流、评估等。目前是榨干 Claude（尤其 Claude Code 和 Agent 场景）最高信噪比的资源之一。
 
 #### Dicklesworthstone/destructive_command_guard
-A safety tool specifically designed for AI agents. It intercepts and blocks dangerous shell/git commands that autonomous agents might run by mistake. As coding agents gain more system access, this kind of guardrail is becoming essential. Written in Rust for performance and reliability.
+专为 AI Agent 设计的安全工具。拦截并阻止自主 Agent 可能误执行的危险 shell/git 命令。随着 Coding Agent 获得更多系统权限，这种防护栏变得越来越必要。用 Rust 编写，注重性能和可靠性。
 
 #### wonderwhy-er/DesktopCommanderMCP
-MCP (Model Context Protocol) server that gives Claude (and other MCP-compatible models) full terminal control, file system search, and diff-based editing. Turns Claude into a much more powerful local coding agent. Highly discussed as one of the best practical MCP tools right now.
+MCP（Model Context Protocol）服务器，赋予 Claude（及其他兼容模型）完整终端控制、文件系统搜索、基于 diff 的编辑能力。让 Claude 变成真正强大的本地 Coding Agent。目前讨论度很高的实用 MCP 工具。
 
-#### davila7/claude-code-templates & related Claude Code tools
-Ecosystem around Claude Code (Anthropic's agentic coding CLI). Templates for configuration, monitoring, free wrappers, and load balancers. Shows how fast the Claude Code community is growing and how people are building tooling around it.
+#### davila7/claude-code-templates 及相关 Claude Code 工具
+围绕 Claude Code（Anthropic 的 Agentic Coding CLI）的生态工具。配置模板、监控、免费 wrapper、负载均衡等。显示出 Claude Code 社区增长速度，以及大家在其之上构建工具的热情。
 
 #### FoundationAgents/OpenManus
-Open-source agent framework emphasizing "no fortress, purely open ground". Aims to be a clean, extensible foundation for multi-agent systems without heavy proprietary lock-in. Early but gaining traction among people tired of closed agent platforms.
+开源 Agent 框架，强调「无堡垒，纯开放」。目标是提供干净、可扩展的多 Agent 系统基础，避免重度专有锁定。早期但受欢迎，尤其是那些厌倦封闭 Agent 平台的人。
 
 #### langflow-ai/langflow
-Visual tool for building and deploying AI agents and workflows. Drag-and-drop interface on top of LangChain-style components. Popular for teams that want to prototype agents quickly without writing everything from scratch.
+可视化构建和部署 AI Agent 与工作流的工具。基于 LangChain 风格组件的拖拽界面。适合想快速原型 Agent、又不想从零写代码的团队。
 
 #### virattt/ai-hedge-fund
-Multi-agent AI hedge fund simulation. Multiple specialized agents (research, trading, risk, etc.) collaborate. One of the more complete open-source examples of multi-agent financial systems. Good reference for building collaborative agent teams.
+多智能体 AI 对冲基金模拟。多个专业 Agent（研究、交易、风控等）协作。开源中比较完整的多 Agent 金融系统示例。适合学习如何构建协作 Agent 团队。
 
 ---
 
-*Updated daily. Full history in [archives](archives/).*
+*每日更新。完整历史见 [archives](archives/)。*

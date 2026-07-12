@@ -1,31 +1,29 @@
-# Contributing
+# 贡献指南
 
-## Core Rules
+## 核心规则
 
-1. AI focus only (Agent / LLM / Coding Agent / MCP / RAG preferred)
-2. Separate English (`README.md`) and Chinese (`README.zh-CN.md`)
-3. Strict 3-part structure every day:
-
-### Structure for every daily entry
+1. 只关注 AI 方向（Agent / LLM / Coding Agent / MCP / RAG 优先）
+2. 仓库全中文
+3. 每天严格三部分结构：
 
 ```markdown
 ## YYYY-MM-DD
 
-### 1. GitHub Hot Projects
-(table or ranked list of top AI projects by stars today)
+### 1. GitHub 热点项目
+（按今日 stars 排序的 AI 项目表格）
 
-### 2. Hot Discussions on X + Mainstream Opinions
-(key projects + what people are saying / common views)
+### 2. X 上热议项目及主流观点
+（项目 + 大家的真实看法）
 
-### 3. In-depth Introduction of Key Projects
-(for each important project: deeper explanation of what it is, why it matters, who it's for)
+### 3. 重点项目深入介绍
+（对每个重要项目写深入解读：是什么、为什么重要、适合谁）
 ```
 
-4. Keep READMEs clean — minimal intro, no long about sections.
+4. README 保持干净，不要多余介绍部分。
 
-## Daily Process
-1. Get top AI projects from GitHub Trending
-2. Check X discussions for hot opinions
-3. Write deep intros for the most important ones
-4. Update both READMEs + current month archive
-5. Commit
+## 每日流程
+1. 从 GitHub Trending 抓取 AI 相关热门项目
+2. 搜索 X 上的热议观点
+3. 对重点项目写深入介绍
+4. 更新 README.md + 当月归档
+5. 提交
