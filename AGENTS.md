@@ -1,3 +1,8 @@
+---
+layout: default
+title: Agent Operating Rules
+---
+
 # Agent Operating Rules
 # AI 落地实用仓库索引（hot-opensource-projects）
 
@@ -58,7 +63,7 @@
 | 目录 | 角色 | 谁可以写 | 权威？ |
 |------|------|----------|--------|
 | `raw/` | 原始收集的仓库数据 | Agent + 人类 | 是 |
-| `sources/` | 外部热议来源（X 帖子、Trending） | Agent + 人类 | 是 |
+| `sources/` | 外部热议来源（X、Trending） | Agent + 人类 | 是 |
 | `products/` | 已发布分析报告、商业点子 | 仅 review 后 | 是 |
 | `wiki/daily/` | 每日完整日报（20个项目 + 观点 + 介绍 + 商业点子） | 仅 Grok 任务 review 后 | 否（引用） |
 | `wiki/repos/` | 单项目深度分析页 | Agent + 人类 review 后 | 否 |
