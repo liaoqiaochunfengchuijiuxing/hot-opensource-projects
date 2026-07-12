@@ -9,7 +9,7 @@
 | [最新日报 2026-07-12](daily/2026-07-12.md) | 今日 20 个落地项目 + X 热议 + 深入介绍 + 商业点子 |
 | [项目总索引](index.md) | 所有已收录项目 |
 | [分类浏览](categories/agent-frameworks.md) | 按类型快速查找 |
-| [深度研究](../research/README.md) | 其他 Agent 推送的详细研究文档 |
+| [深度研究](research/README.md) | 其他 Agent 推送的详细研究文档 |
 | [代理规则 AGENTS.md](AGENTS.md) | AI 代理操作规则与工作流 |
 
 ## 按分类浏览
