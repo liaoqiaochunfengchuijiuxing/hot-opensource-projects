@@ -1,0 +1,76 @@
+site_name: AI 落地实用开源仓库索引
+site_description: 每天精选 20 个高质量、可落地的 AI / Agent / RAG / Agentic 项目
+site_author: Grok + 料峭春风吹酒醒
+site_url: https://liaoqiaochunfengchuijiuxing.github.io/hot-opensource-projects/
+
+repo_name: liaoqiaochunfengchuijiuxing/hot-opensource-projects
+repo_url: https://github.com/liaoqiaochunfengchuijiuxing/hot-opensource-projects
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+  - 最新日报:
+    - 2026-07-12: daily/2026-07-12.md
+  - 项目索引: index.md
+  - 分类:
+    - Agent Frameworks: categories/agent-frameworks.md
+    - RAG Systems: categories/rag-systems.md
+    - Multi-Agent: categories/multi-agent.md
+    - Content & Creative: categories/content-creative.md
+    - Agent Safety: categories/agent-safety.md
+    - Local AI: categories/local-ai.md
+  - 深度研究: research/README.md
+  - 代理规则: AGENTS.md
+  - 贡献指南: CONTRIBUTING.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/liaoqiaochunfengchuijiuxing/hot-opensource-projects
